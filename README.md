@@ -1,6 +1,6 @@
 # Age-and-Context-Sensitive-Hybrid-Entertaintment-Recommender-System
-                                                                                 
-###About
+                                                                                
+### About
 With the hectic lifestyle, the time a family spends together has decreased
 in today's world. Rather than spending quantity family time, quality family
 time has become essential. Hence, many people have started with family
