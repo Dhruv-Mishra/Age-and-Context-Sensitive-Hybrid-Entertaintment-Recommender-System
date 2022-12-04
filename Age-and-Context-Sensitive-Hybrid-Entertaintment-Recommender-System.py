@@ -201,7 +201,7 @@ class Recommender:
             if (num == 6):
                 break
     def calc_collaborative(self):
-        df = pd.read_csv('Datasets\ratings.csv')
+        df = pd.read_csv('Datasets//ratings.csv')
         movie_titles = pd.read_csv("Datasets\movies.csv")
         df = pd.merge(df,movie_titles,on='movieId')
         ratings = pd.DataFrame(df.groupby('title')['rating'].mean())
