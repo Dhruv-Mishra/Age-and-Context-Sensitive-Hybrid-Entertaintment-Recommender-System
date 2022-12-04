@@ -201,8 +201,8 @@ class Recommender:
             if (num == 6):
                 break
     def calc_collaborative(self):
-        df = pd.read_csv('ratings.csv')
-        movie_titles = pd.read_csv("movies.csv")
+        df = pd.read_csv('Datasets\ratings.csv')
+        movie_titles = pd.read_csv("Datasets\movies.csv")
         df = pd.merge(df,movie_titles,on='movieId')
         ratings = pd.DataFrame(df.groupby('title')['rating'].mean())
         ratings['rcount'] = pd.DataFrame(df.groupby('title')['rating'].count())
@@ -250,7 +250,7 @@ class Recommender:
         else:
             print()
     def recommend_demographic(self):
-        df2 = pd.read_excel('data3.xlsx')
+        df2 = pd.read_excel('Datasets\data3.xlsx')
         df2=df2.dropna(axis=0)
         df2_cp=df2.dropna().reset_index(drop=True)
         alpha = 2
@@ -272,7 +272,6 @@ class Recommender:
             if(num == 11):
                 break
 
-
-r = Recommender('merged_genre.csv')
+r = Recommender('Datasets\merged_genre.csv')
 r.addUsers([["Hellboy",20],["Shutter",20]])
 r.recommend()
