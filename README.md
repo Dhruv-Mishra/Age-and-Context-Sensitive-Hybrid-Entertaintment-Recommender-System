@@ -64,10 +64,13 @@ In order to understand the structuring of our data, and fine tune some parameter
 
 ### Sample Output
 We tested the model on the following input:
+
 ![image](https://user-images.githubusercontent.com/88545875/205521629-19ec17a2-6af5-4c2d-bef8-68f56351a766.png)
 
 And obtained the following output: 
+
 ![image](https://user-images.githubusercontent.com/88545875/205521582-2eacca24-0dbb-4bde-ab5a-e170a52ff6dd.png)
+
 For detailed description of the working of this model, check out the report.
 
 ### Learnings from this Project
