@@ -31,7 +31,7 @@ given by them to make suggestions.
 
 ### Datasets
 The datasets were sourced from kaggle.com and movielens.com. They have been included with theis project. For more information, check out the detailed report.
-#####Dataset Description For Content and Demographic Filtering:
+##### Dataset Description For Content and Demographic Filtering:
 - Our dataset contains the following attributes:
  -  type: If it is a movie or a TV show.
  -  title: The current title of the movie.
@@ -46,7 +46,7 @@ The datasets were sourced from kaggle.com and movielens.com. They have been incl
  - IMDB: The IMDB rating of the movies/TV show
  - TMBD: The tmdb rating of the movies/TV show
  
-#####Dataset Description For Collaborative Filtering:
+##### Dataset Description For Collaborative Filtering:
 - Our dataset contains the following attributes:
  - title: The current title of the movie.
  - user id: Uniquely identifies the user
